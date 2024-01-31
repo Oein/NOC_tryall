@@ -1,7 +1,8 @@
 <script>
 	import '@/styles/global.css';
+	import { ThemeProvider } from 'nunui';
 </script>
 
-<div class="App">
+<ThemeProvider>
 	<slot />
-</div>
+</ThemeProvider>
